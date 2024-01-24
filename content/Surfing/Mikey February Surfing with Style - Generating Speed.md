@@ -19,4 +19,3 @@ The posture on that is just all the weight on the front foot, hips forward makes
 	</div>
 </a></div>
 
-https://www.surfer.com/how-to/frontside-hack
