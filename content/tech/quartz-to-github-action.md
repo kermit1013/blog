@@ -1,6 +1,6 @@
 ---
 created: 2024-01-25T03:56
-updated: 2024-01-25T14:42
+updated: 2024-01-27T03:24
 title: Quartz 整合 Github Action
 ---
  2024折騰自己的開始，為了避免下次回來又得重新回想整個發佈的流程，第一篇就用來充作README.md吧。
@@ -37,7 +37,7 @@ npx quartz create
 ```
 
 # Private Pages
-因為在Symlink時我是選擇連接到整個Personal vault ，所以如果不希望整個vault都公諸於世的話，記得設定另外設定 ` quartz.config.ts` 、 `.gitignore` 這兩檔案。
+*因為在Symlink時我是選擇連接到整個Personal* vault ，所以如果不希望整個vault都公諸於世的話，記得設定另外設定 ` quartz.config.ts` 、 `.gitignore` 這兩檔案。
 ## quartz.config.ts
 
 > Using "00 - Private" in my case 
