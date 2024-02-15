@@ -1,7 +1,7 @@
 ---
 title: Endless rays. Endless waves.
 created: 2024-01-11T00:07
-updated: 2024-02-16T04:44
+updated: 2024-02-16T04:52
 ---
 ![[Pasted image 20240125025346.png]]
 >〝When you're up on your board, you're alive, safe in the stillness of summer, speeding towards the infinite. There is no reward or prize. Nothing to chase or find. You're already there. Gliding across the sea. That's when perfection happens. That's when time stopsand your heart opens. And it may only be for a second, but once it collapses, all you need to do is paddle out and capture it all over again. And again. And again. And again.〞
@@ -12,7 +12,7 @@ updated: 2024-02-16T04:44
 # Recent works
 | Note                                                                      | Last modified                |
 | ------------------------------------------------------------------------- | ---------------------------- |
-| [[index.md\| / index]]                                                    | 4:41 AM - February 16, 2024  |
+| [[index.md\| / index]]                                                    | 4:52 AM - February 16, 2024  |
 | [[tech/Python day1.md\|tech / Python day1]]                               | 5:31 PM - February 15, 2024  |
 | [[readwise/books/重拾交談.md\|readwise/books / 重拾交談]]                         | 10:55 AM - February 10, 2024 |
 | [[about-me.md\| / about-me]]                                              | 4:15 AM - January 27, 2024   |
@@ -22,6 +22,7 @@ updated: 2024-02-16T04:44
 | [[surfing/surfing-paddle.md\|surfing / surfing-paddle]]                   | 1:20 AM - January 26, 2024   |
 | [[surfing/generating-speed.md\|surfing / generating-speed]]               | 1:19 AM - January 26, 2024   |
 | [[uncategorized/cultural-script.md\|uncategorized / cultural-script]]     | 1:44 PM - January 25, 2024   |
+
 
 # Welcome to my homebreak
 
