@@ -1,7 +1,7 @@
 ---
 title: Endless rays. Endless waves.
 created: 2024-01-11T00:07
-updated: 2024-02-17T22:16
+updated: 2024-02-20T17:30
 ---
 ![[Pasted image 20240125025346.png]]
 >〝When you're up on your board, you're alive, safe in the stillness of summer, speeding towards the infinite. There is no reward or prize. Nothing to chase or find. You're already there. Gliding across the sea. That's when perfection happens. That's when time stopsand your heart opens. And it may only be for a second, but once it collapses, all you need to do is paddle out and capture it all over again. And again. And again. And again.〞
@@ -14,7 +14,7 @@ updated: 2024-02-17T22:16
 | ----------------------------------------------------------------------------- | ---------------------------- |
 | [[index.md\| / index]]                                                        | 10:15 PM - February 16, 2024 |
 | [[python-day-1|technical / Python day1]]                         | 5:31 PM - February 15, 2024  |
-| [[readwise/books/重拾交談.md\|readwise/books / 重拾交談]]                             | 10:55 AM - February 10, 2024 |
+| [[book/books/重拾交談|readwise/books / 重拾交談]]                             | 10:55 AM - February 10, 2024 |
 | [[about-me.md\| / about-me]]                                                  | 4:15 AM - January 27, 2024   |
 | [[technical/quartz-to-github-action.md\|technical / quartz-to-github-action]] | 3:24 AM - January 27, 2024   |
 | [[surfing/kale-brock-surf-session.md\|surfing / kale-brock-surf-session]]     | 1:51 AM - January 27, 2024   |
