@@ -1,14 +1,14 @@
 ---
 created: 2024-02-14T22:42
-updated: 2024-03-05T22:38
+updated: 2024-03-08T02:50
 title: Python these days
 ---
-## install `python`
+## Install `python`
 ```shell
 brew install python
 ```
 
-## install `poetry`
+## Install `poetry`
 ```shell
 // Ubuntu
 curl -sSL https://install.python-poetry.org | python3 -
@@ -18,7 +18,7 @@ curl -sSL https://install.python-poetry.org | sed 's/symlinks=False/symlinks=Tru
 ```
   
 
-##  alias `python3` to `python`
+##  Alias `python3` to `python`
 On macOS, there are several ways to alias `python3` to `python`. Here are the best options, each with its own pros and cons:
 
 **1. Using `.bashrc` or `.zshrc` (Recommended for permanent alias):**
@@ -181,3 +181,59 @@ CHANNEL_LAYERS = {
     },
 }
 ```
+
+## Django cors
+```
+poetry add django-cors-headers
+```
+
+在settings.py的INSTALLED_APPS加上corsheaders:
+
+```
+INSTALLED_APPS = (
+    ...
+    'corsheaders',
+    ...
+)
+```
+
+在MIDDLEWARE_CLASSES加上:
+
+```
+MIDDLEWARE_CLASSES = (
+    ...
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    ...
+)
+```
+
+
+> [!NOTE] 
+> 如果設定了USE_ETAGS=True,那麼CordMiddleware必須要在Django CommonMiddleware之前, 否則CORS headers就會因304 not-modified responses被遺失了.
+
+
+設定方式是在settings.py中設定如下:
+
+```
+CORS_ORIGIN_ALLOW_ALL = True # 允許所有跨站請求, 且whitelist不會被使用
+```
+
+CORS_ORIGIN_ALLOW_ALL的預設值是False, 我們可以設定white list:
+
+```
+CORS_ORIGIN_WHITELIST = (
+    'localhost:9000', # 本機的不同port
+    'mysite.com',
+    ...
+)
+```
+
+
+## WTF is   `*Args` and `**Kwargs` 
+![[Pasted image 20240308024730.png]]
+https://www.youtube.com/watch?v=4jBJhCaNrWU
+
+### Conclusion
+`*args` handled tuple or list (Iterable)
+`**kwargs` handled dictionary(key & value pairs)
