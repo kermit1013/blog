@@ -1,6 +1,6 @@
 ---
 created: 2024-11-19T16:44
-updated: 2024-11-19T16:58
+updated: 2024-11-19T17:06
 ---
 folder Prefix: numbers
 00 - Private 
@@ -15,8 +15,12 @@ about-me
 index
 
 
-sync to quartz
+## Sync to quartz
 
-j quartz (cd /Users/Kermit/Documents/GitHub/quartz)
-npx quartz sync
+>  j quartz (cd /Users/Kermit/Documents/GitHub/quartz)
+
+> [!NOTE] Info
+> `. code` if want to config the project
+
+> npx quartz sync
 
